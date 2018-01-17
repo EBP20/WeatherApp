@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PointChart -->
+    <declare-styleable name="PointChart">
+        <attr name="pc_color" format="color" />
+        <attr name="pc_Y" format="integer" />
+        <attr name="pc_Ymax" format="integer" />
+        <attr name="pc_redius" format="dimension" />
+        <attr name="pc_text_size" format="dimension" />
+    </declare-styleable>
+
+    <!-- Gradient -->
+    <declare-styleable name="gradient">
+        <attr name="transition_drawable" format="enum" />
+        <attr name="transition_duration" format="integer" />
+    </declare-styleable>
+
+    <!-- ProgressCell -->
+    <!--<declare-styleable name="ProgressCell">-->
+        <!--<attr name="pc_background" format="color" />-->
+        <!--<attr name="pc_progresstint" format="color" />-->
+        <!--<attr name="pc_textcolor" format="color" />-->
+        <!--<attr name="pc_text_size" format="dimension" />-->
+        <!--<attr name="pc_progress" format="dimension" />-->
+        <!--<attr name="pc_max_progress" format="dimension" />-->
+        <!--<attr name="pc_width" format="dimension" />-->
+
+    <!--</declare-styleable>-->
+
+</resources>

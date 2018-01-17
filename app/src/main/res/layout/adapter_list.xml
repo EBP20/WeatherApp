@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_sup_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="0.2dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_seprator"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_alignLeft="@+id/layout"/>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ir.eatandroid.weather.components.PointChart
+            android:id="@+id/pc_chart"
+            android:layout_width="60dp"
+            android:layout_height="120sp"
+            app:pc_color="@color/white"
+            app:pc_text_size="8sp"
+            app:pc_redius="2sp"/>
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="45sp"
+            android:layout_height="45sp"
+            android:padding="8sp"/>
+
+        <TextView
+            android:id="@+id/txt_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02:00"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0.2dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_seprator"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_alignRight="@+id/layout"/>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="c_degree">°C</string>
+    <string name="pressure_txt_image">Pressure :</string>
+    <string name="humidity_txt_image">Humidity :</string>
+    <string name="speed_txt_image">Speed :</string>
+</resources>
