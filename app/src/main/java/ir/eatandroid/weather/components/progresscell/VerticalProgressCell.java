@@ -11,10 +11,10 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import ir.oxima.weatherapp.R;
+
 
 /**
- * Created by hoseinraeisi on 9/9/17.
+ * Created by elham on 9/9/17.
  */
 
 public class VerticalProgressCell extends View {
